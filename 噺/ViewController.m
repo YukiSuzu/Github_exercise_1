@@ -25,7 +25,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+   
     
+     
     /*複数のアカウントから選択*/
     self.accountStore = [[ACAccountStore alloc] init];
     ACAccountType *twitterType =
@@ -130,6 +132,9 @@
         }
     }
 }
+
+
+
 
 
 @end

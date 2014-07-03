@@ -14,7 +14,8 @@
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc,argv,NSStringFromClass([MyUIApplication class]),//カスタムクラス名
+        return UIApplicationMain(argc,argv,
+                                 NSStringFromClass([MyUIApplication class]),//カスタムクラス名
                                  NSStringFromClass([AppDelegate class]));
     }
 }

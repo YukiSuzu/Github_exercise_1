@@ -20,7 +20,7 @@
     }
     self.myOpenURL = url;
     AppDelegate *appDelegade = [[UIApplication sharedApplication]delegate];
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"main" bundle:[NSBundle mainBundle]];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
     
     WebViewController *webViewController =
     [storyboard instantiateViewControllerWithIdentifier:@"WebViewController"];
